@@ -71,8 +71,16 @@ body {
     background-color: hsl(171, 66%, 44%);
 }
 
+.btn-ios:hover {
+    background-color: hsl(171, 66%, 21%);
+}
+
 .btn-mac {
     background-color: hsl(233, 100%, 69%);
+}
+
+.btn-mac:hover {
+    background-color: hsl(233, 100%, 21%);
 }
 
 /* BONUS */
@@ -149,4 +157,124 @@ body {
 
 .footer-media-img {
     margin: 0 5%;
+}
+
+/* MOBILE */
+@media (min-width: 1200px) {
+    .header {
+        height: 800px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin: 20px 10px;
+    }
+
+    .header-txt {
+        padding: 0 30%;
+    }
+
+    .bonus {
+        position: relative;
+        height: 1100px;
+    }
+
+    .bonus-img {
+        position: absolute;
+        width: 40%;
+        left: 5%;
+        top: 300px;
+    }
+
+    .bonus-p {
+        position: absolute;
+        right: 5%;
+        width: 400px;
+        text-align: left;
+    }
+
+    .bonus-p1 {
+
+        top: 280px;
+    }
+
+    .bonus-p2 {
+        top: 450px;
+    }
+
+    .bonus-p3 {
+        top: 620px;
+    }
+    
+    .list {
+        height: 1350px;
+    }
+
+    .list-img {
+        width: 40%;
+    }
+
+    .list-item {
+        display: inline-block;
+        padding: 0 4%;
+        width: 18%;
+    }
+
+    .sponsor {
+        height: 350px;
+    }
+
+    .sponsor-img {
+        display: inline-block;
+        margin: 0 4%;
+    }
+
+    .download {
+        height: 400px;
+    }
+
+    .footer {
+        height: 250px;
+    }
+
+    .footer-bg {
+        position: relative;
+        height: 300px;
+    }
+
+    .footer-img {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 5%;
+        margin: 0;
+    }
+
+    .footer-links {
+        position: absolute;
+        left: 25%;
+        top: 55%;
+        transform: translateY(-50%);
+        margin: 0;
+        width: 50%;
+        height: 80%;
+        text-align: left;
+    }
+
+    .footer-links h3 {
+        display: inline-block;
+        height: 40%;
+        width: 30%;
+    }
+
+    .footer-media {
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 200px;
+
+    }
+        
 }
