@@ -22,6 +22,11 @@ body {
     font-size: 1.6rem;
 }
 
+.hxt-sl {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
 .txt {
     font-size: 1rem;
     color: hsl(201, 11%, 66%);
@@ -72,7 +77,7 @@ body {
 
 /* BONUS */
 .bonus {
-    height: 1100px;
+    height: 1200px;
 }
 
 .bonus-txt {
@@ -105,4 +110,43 @@ body {
     margin-bottom: 100px;
 }
 
-/* SPONSOr */
+/* SPONSOR */
+.sponsor {
+    height: 650px;
+}
+
+.sponsor-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+/* DOWNLOAD */
+.download {
+    height: 500px;
+}
+
+/* FOOTER */
+.footer {
+    height: 550px;
+    padding: 5%;
+}
+
+.footer-bg {
+    background-color: hsla(202, 11%, 86%, 0.568);
+    height: 550px;
+}
+
+.footer-img {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 15%;
+}
+
+.footer-links {
+    margin-bottom: 70px;
+}
+
+.footer-media-img {
+    margin: 0 5%;
+}
