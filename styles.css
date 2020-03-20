@@ -1,0 +1,108 @@
+/* GENERAL */
+body {
+    margin: 0;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.hxt {
+    font-size: 2rem;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.4;
+}
+
+.hxt-md {
+    font-size: 1.6rem;
+}
+
+.txt {
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+/* HEADER */
+.header {
+    position: relative;
+    height: 900px;
+    top: 150px;
+}
+
+.header-img {
+    margin-bottom: 60px;
+}
+
+.header-txt {
+    padding: 0 15%;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: #FFF;
+}
+
+.btn-ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn-mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* BONUS */
+.bonus {
+    height: 1100px;
+}
+
+.bonus-txt {
+    padding: 0 15%;
+    margin-bottom: 70px;
+}
+
+.bonus-img {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+/* LIST */
+.list {
+    height: 1600px;
+}
+
+.list-txt {
+    padding: 0 15%;
+    margin-bottom: 100px;
+}
+
+.list-img {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.list-item {
+    padding: 0 15%;
+    margin-bottom: 100px;
+}
+
+/* SPONSOr */
